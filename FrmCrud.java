@@ -83,7 +83,8 @@ public class FrmCrud extends javax.swing.JFrame {
                Date fecha = FechaN.getDate();
                DateFormat f = new SimpleDateFormat("YYYY-MM-dd");
                String fecha2 = f.format(fecha);
-               //JOptionPane.showMessageDialog(null,"fecha" + fecha2);
+        // limpia tu codigo
+              
                Conexxion conn = new Conexxion();
                Connection conx = conn.Conectar();
                try{
@@ -166,7 +167,6 @@ public class FrmCrud extends javax.swing.JFrame {
             Date fecha = FechaN.getDate();
             DateFormat f = new SimpleDateFormat("YYYY-MM-dd");
             String fecha2 = f.format(fecha);
-            //JOptionPane.showMessageDialog(null,"Fecha: "+fecha2);
             Conexxion conn = new Conexxion();
             Connection conx = conn.Conectar();
             try {
